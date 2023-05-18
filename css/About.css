@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Teko:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.h1-text {
+  font-size: 135px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px;
+  color: #999;
+  font-family: "Teko", sans-serif;
+  line-height: 110px;
+  letter-spacing: 8px;
+}
+.p-icon {
+  font-size: 115px;
+  color: #b3b3b3;
+  font-weight: 100;
+  transform: rotate(180deg);
+  margin: 10px 0px;
+}
+.p-text {
+  font-size: 45px;
+  font-weight: bolder;
+  line-height: 55px;
+  color: #3b3f4f;
+  letter-spacing: 3px;
+}
+.mt-5 {
+  margin-top: 100px;
+}
+.box-company {
+  padding: 50px 80px;
+  color: #fff;
+}
+.box-company p {
+  font-weight: 100;
+  margin: 19px 0;
+}
+
+.p-text1{
+  line-height: 32px;
+}
+.p-50{
+  padding: 50px 0;
+}
+.textSize{
+  font-size: 22px;
+  padding: 15px 10px;
+}
+.textSize1{
+  padding: 8px 60px 8px 10px;
+  letter-spacing: 0.5px;
+}
+.rounded{
+  display: inline-block;
+  border: 1px solid #e3e3e3;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 20px 0;
+  font-size: 40px;
+  cursor: pointer;
+  color: #b89f7b;
+}
+.relative-1 {
+  position: relative !important;
+}
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.absolute-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 10s;
+  background-color: #fff;
+}
+.collection-banner:hover .absolute {
+  display: block;
+}
+.collection-banner:hover .absolute-1 {
+  transform: translate(0%);
+}
+
+.banner-team{
+  border-radius: 8px;
+  width: 100%;
+  transition: all 1s ease-out;
+}
+.banner-opacity{
+  background: rgba(0,0,0,0.4);
+  content: " ";
+  position: absolute;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  opacity: 0;
+  z-index: 1;
+}
+.relative-1:hover .banner-opacity{
+  opacity: 1;
+  transition: all 1s ease-out;
+}
+.text-absolute{
+  position: absolute;
+  bottom: -18%;
+  left: 20%;
+  font-size: 60px;
+  font-weight: 600;
+}
+.fashable{
+  padding-right: 150px;
+}
+.fashable-box{
+  padding: 50px;
+}
+
+
+@media (max-width:992px){
+  .h1-text{
+    font-size: 120px;
+  }
+  .collection-box{
+    margin-top: 50px;
+  }
+}
+
+@media (max-width:800px){
+  .h1-text{
+    font-size: 90px;
+  }
+  .fashable{
+    margin-bottom: 40px;
+    padding-right: 0px;
+  }
+  .fashable-box {
+    padding: 30px;
+  }
+  .fashable-box .text-absolute{
+    visibility: hidden;
+  }
+  
+}
+@media (max-width:600px){
+  .h1-text{
+    font-size: 60px;
+  }
+  .box-company{
+    padding: 40px;
+  }
+  
+}

@@ -1,0 +1,128 @@
+.contact-help{
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    padding: 3px;
+}
+.help-icon{
+    float: left;
+    color:#c0aa89;
+    padding: 0 12px;
+}
+.h1-font{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.input-type{
+    width: 100%;
+    margin-bottom:30px;
+    padding: 15px;
+    border: none;
+    outline: 0;
+    box-shadow: 0 0 5px 5px #eee;
+    font-size: 17px;
+}
+.input-type-1{
+    margin-bottom:0px;  
+}
+.input-type::placeholder{
+    color: #ababb9;
+}
+.collection-banner{
+    transition: all 5s ease-out;
+}
+.absolute{
+    display: block;
+    background-color: transparent;
+}
+.our-store{
+    width: 230px;
+    padding: 20px;
+    border-radius: 0 0 0 8px;
+    transition: all 1s ease-out;
+}
+.collection-banner:hover .our-store{
+    background-color: #000;
+    color: #fff;   
+}
+.md-margin-top{
+    margin-top: 0px;
+}
+@media (max-width:1024px) {
+    .md-margin-top{
+        margin-top: 30px;
+
+    }
+    .div-1{
+        margin-top: 20px;
+    }
+}
+.our-store-h3{
+    position: relative;
+    font-size: 18px;
+    color: #6f6f6f;
+    font-weight: 400;
+}
+.h1-1-text{
+    font-size: 180px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px;
+    color: #c1bdbd;
+    font-family: "Teko", sans-serif;
+    line-height: 110px;
+    letter-spacing: 8px;
+    margin-left: -152px;
+}
+@media (max-width:1200px) {
+    .h1-1-text{
+        font-size: 170px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 3px;
+        color: #c1bdbd;
+        font-family: "Teko", sans-serif;
+        line-height: 110px;
+        letter-spacing: 8px;
+        margin-left: -141px;
+    }
+}
+@media (max-width:768px) {
+    .h1-1-text{
+        font-size: 130px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 3px;
+        color: #c1bdbd;
+        font-family: "Teko", sans-serif;
+        line-height: 110px;
+        letter-spacing: 8px;
+        margin-left: -50px;
+    }
+}
+@media (max-width:576px) {
+    .h1-1-text{
+        font-size: 90px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 3px;
+        color: #c1bdbd;
+        font-family: "Teko", sans-serif;
+        line-height: 110px;
+        letter-spacing: 8px;
+        margin-left: -10px;
+    }
+}
+.span-1{
+    text-align: right;
+}
+.our-store-h3-span{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.our-store-h3-span::after{
+    content: '';
+    position: absolute;
+    right: 100%;
+    height: 3px;
+    width: 210px;
+    background-color: #b69d7a;
+    opacity: .5;
+}
